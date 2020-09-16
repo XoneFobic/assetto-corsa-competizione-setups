@@ -6,11 +6,16 @@ Feel free to use them, even though credits would be appreciated.
 I tinkered at these setups myself, so they suit my driving style (as much as I have one).  
 Information gathered on how to tune and what to pay attention on range from "What doesn't make me crash" to watching youtube videos like those of Aris.Drives, Jardier, Boosted Media and many others.  
 
-# Nameing convention
+# Naming convention
 
 Usually I name the setups like "Xone Race 32", sometimes adding track conditions as well. `Xone` is.. well.. me, mostly done so if this repo grows and more people contribute, that it's easily sortable. `Race` can be changed by `Race`, `Qualify`, `Hotlap`, `Practice`, etc. `32` is the track temperture at the time of saving, in celcius. Additional, if I feel like it's needed, I'll add `Optimum`, `Fast`, `Green`, `Wet` as a track conditions. However, usually it's not there, as till now, it's not proven needed.
 
 # Disclaimer
+
+Most setups that are marked as `Race` should be good for a 60 minute 'no pitstop' race.
+Most `Qualify` setups should be good for about 5 laps. 1 outlap, 3 fast laps, 1 outlap - Or more.
+
+# Legal Stuff
 
 **DO NOT** add setups as-is that are considered paid content. Modify them enough to adhere to each producer's Terms of Service before adding them.  
 These people work hard to create high quality setups, which they then sell.
