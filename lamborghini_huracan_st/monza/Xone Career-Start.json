@@ -1,0 +1,74 @@
+{
+  "carName"      : "lamborghini_huracan_st",
+  "basicSetup"   : {
+    "tyres"      : {
+      "tyreCompound": 0,
+      "tyrePressure": [ 61, 70, 52, 57 ]
+    },
+    "alignment"  : {
+      "camber"      : [ 13, 13, 15, 15 ],
+      "toe"         : [ 20, 20, 60, 60 ],
+      "staticCamber": [ -3.2422974109649658, -3.23649001121521, -3.3340785503387451, -3.3295557498931885 ],
+      "toeOutLinear": [ 0.0013927747495472431, 0.0013929128181189299, 0.00045287821558304131, 0.00045289809349924326 ],
+      "casterLF"    : 15,
+      "casterRF"    : 15,
+      "steerRatio"  : 2
+    },
+    "electronics": {
+      "tC1"          : 5,
+      "tC2"          : 0,
+      "abs"          : 6,
+      "eCUMap"       : 0,
+      "fuelMix"      : 0,
+      "telemetryLaps": 15
+    },
+    "strategy"   : {
+      "fuel"                 : 28,
+      "nPitStops"            : 0,
+      "tyreSet"              : 2,
+      "frontBrakePadCompound": 0,
+      "rearBrakePadCompound" : 0,
+      "pitStrategy"          : [
+        {
+          "fuelToAdd"            : 25,
+          "tyres"                : {
+            "tyreCompound": 0,
+            "tyrePressure": [ 60, 65, 57, 62 ]
+          },
+          "tyreSet"              : 2,
+          "frontBrakePadCompound": 1,
+          "rearBrakePadCompound" : 1
+        }
+      ],
+      "fuelPerLap"           : 3.0458450317382813
+    }
+  },
+  "advancedSetup": {
+    "mechanicalBalance": {
+      "aRBFront"      : 3,
+      "aRBRear"       : 1,
+      "wheelRate"     : [ 2, 2, 1, 1 ],
+      "bumpStopRateUp": [ 5, 5, 0, 0 ],
+      "bumpStopRateDn": [ 0, 0, 10, 10 ],
+      "bumpStopWindow": [ 1, 1, 60, 60 ],
+      "brakeTorque"   : 20,
+      "brakeBias"     : 55
+    },
+    "dampers"          : {
+      "bumpSlow"   : [ 20, 20, 15, 15 ],
+      "bumpFast"   : [ 10, 10, 15, 15 ],
+      "reboundSlow": [ 20, 20, 15, 15 ],
+      "reboundFast": [ 20, 20, 20, 20 ]
+    },
+    "aeroBalance"      : {
+      "rideHeight": [ 6, 6, 6, 18 ],
+      "rodLength" : [ -22.33555793762207, -22.33555793762207, 19.244792938232422, 19.244792938232422 ],
+      "splitter"  : 0,
+      "rearWing"  : 5,
+      "brakeDuct" : [ 4, 4 ]
+    },
+    "drivetrain"       : {
+      "preload": 4
+    }
+  }
+}
